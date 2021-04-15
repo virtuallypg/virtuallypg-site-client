@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#page-body{
+  /* background-color: yellow; */
+  background: url("./images/bg-pattern2.png"), #777;
+  background: url("./images/bg-pattern2.png"), linear-gradient(to left, #fff, #fff);
+  background-blend-mode:darken;
+  min-height: 600px;
+}
+
+#page-top{
+  position: absolute;
+  top: 0;
+}
