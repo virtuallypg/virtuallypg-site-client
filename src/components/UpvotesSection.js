@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 const UpvotesSection = ({ articleName, upvotes, setArticleInfo}) => {
 
   const upvoteArticle = async () => {
-    const result = await fetch(`api/articles/${articleName}/upvote`, {
+    const result = await fetch(`/api/articles/${articleName}/upvote`, {
       method: 'post',
     });
     const body = await result.json();
