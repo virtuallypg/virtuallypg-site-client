@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import axios from "axios";
 
 const UpvotesSection = ({ articleName, upvotes, setArticleInfo}) => {
 
   const upvoteArticle = async () => {
-    const result = await fetch(`/api/articles/${articleName}/upvote`, {
+    const result = await fetch(`/articles/${articleName}/upvote`, {
       method: 'post',
     });
     const body = await result.json();
