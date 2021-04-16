@@ -17,7 +17,7 @@ const HomePage = () => (
         </div>
         <div className="col-lg-9">
           <div className="bg-white rounded border border-light p-2 mt-4">
-            <p>Greetings! My name is Paul and I'm currently completing the transition from teacher of English and Media Studies to Software Developer. Full Stack development right now is what is rocking my world and so here we have a website built using React, complete with backend support (scripted in Node.js). <br></br><br></br>
+            <p>Greetings to all! My name is Paul and I'm currently completing the transition from teacher of English and Media Studies to Software Developer. Full Stack development right now is what is rocking my world and so here we have a website built using React, complete with backend support (scripted in Node.js). <br></br><br></br>
                 So, within the Portfolio page of this site you'll find some links to projects I have recently been working on. Please feel free to have a mooch! Also, I am putting together a programming blog. The topic of 'programming' is undoubtedly wide and all pervasive so in time I'll strive to carve out some kind of niche - at present the best concept I can come with is <i>An English Teacher's Take on Coding!</i>. Again, feel free to browse and comment. All views are my own etc etc.
                 </p>
           </div>

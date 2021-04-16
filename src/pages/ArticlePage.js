@@ -15,7 +15,7 @@ const ArticlePage = ({ match }) => {
 
   useEffect(() => {   // can't put async here
     const fetchData = async () => {
-      const result = await fetch(`/api/articles/${name}`);
+      const result = await fetch(`https://virtuallypg-server.herokuapp.com/api/articles/${name}`);
       const body = await result.json();
       setArticleInfo(body);
     }
